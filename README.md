@@ -5,11 +5,16 @@ I wanted to have a bias lighting system for my wall mounted TV's such that the l
 
 The whole show is being run by an ATTiny85 AVR chip that is listening to the USB port on the TV (through an optocoupler), waiting for the set to power up/down, and fading the lights up or down as appropriate.
 
+### Availability ###
+I've made the project available on OSHPark, for anyone who is interested. The version up right now is currently untested in physical form, so order at your own risk. Once I get my boards back, I'll update.
+
+https://oshpark.com/shared_projects/4CxVxJLe
+
 #### Bill of Materials
 Quantity | Item                         | Part Number / Identifier
 :--------: | -------------------------- | -------------------
   1    | ATTiny85 8-pin SOIC AVR Chip | ATTiny85
-  1    | 5.5mm Power Jack             | *
+  1    | 5.5mm Power Jack             | DCJ0202
   1    | MicroUSB SMD Jack            | *
   1    | 2 Position Terminal Block    | *
   3    | 10kΩ 1206 Chip Resistor      | *
